@@ -1,0 +1,36 @@
+:root {
+  --color-header-bg: #24292e;
+  --color-footer-link: #0366d6;
+  --color-footer-text: #586069;
+  --color-text-primary: #24292e;
+  --color-input-bg: #fff;
+  --color-input-border: #e1e4e8;
+  --color-shadow-inset: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+  --color-state-focus-border: #0366d6;
+  --color-state-focus-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  --color-btn-text: #24292e;
+  --color-btn-bg: #fafbfc;
+  --color-btn-border: #1b1f2326;
+  --color-btn-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px;
+  --color-btn-inset-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  --color-btn-hover-bg: #f3f4f6;
+  --color-btn-hover-border: #1b1f2326;
+  --color-btn-danger-text: #d73a49;
+  --color-header-text: #ffffffb3;
+  --color-border-primary: #e1e4e8;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
