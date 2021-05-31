@@ -77,7 +77,7 @@ export class AppLayout extends HTMLElement {
     const response = await fetch('https://api.github.com/graphql', {
       method: 'POST',
       headers: {
-        Authorization: 'bearer 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',
+        Authorization: 'bearer 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',
       },
       body: JSON.stringify({
         query: `
