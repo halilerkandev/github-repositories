@@ -107,7 +107,7 @@ export class FormPage extends HTMLElement {
     );
 
     const submitLogin = this.shadowRoot.querySelector('#submitLogin');
-    submitLogin.addEventListener('click', this.handleClick.bind(this));
+    submitLogin.addEventListener('click', this.handleClick.bind(this, loginInput));
   }
 
   disconnectedCallback() {
@@ -171,8 +171,7 @@ export class FormPage extends HTMLElement {
     error.setAttribute('style', 'display: none;');
   }
 
-  handleClick(e) {
-    e.preventDefault();
+  handleClick(loginInput) {
     loginInput.dispatchEvent(new CustomEvent('buttonClicked'));
   }
 }
