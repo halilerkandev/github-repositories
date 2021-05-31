@@ -1,6 +1,6 @@
 # GitHub Repositories
 
-Search any github users public repos with this app.
+Search any github users' public repos with this app.
 
 ## Run project
 
